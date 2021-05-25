@@ -1,0 +1,24 @@
+server:
+  port: 8080 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-core # 服务名
+  datasource: # mysql数据库连接
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wave?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    username: root
+    password: 123456
+#mybatis-plus.global-config.db-config.table-prefix=t_
+mybatis-plus:
+  mapper-locations: classpath:mappers/*Mapper.xml  # mapper映射文件
+  global-config:
+    db-config:
+      table-prefix: T_
+  configuration-properties:
+    prefix: T_ # 自定义sql中表名带前缀
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

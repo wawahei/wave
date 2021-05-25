@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CTOXML>
+
+<DataModels>
+  <TableCount>13</TableCount>
+  <Count>1</Count>
+</DataModels>
+
+
+<DataModels_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>wave</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <ConfigStr>DrawerWidth=1366
+DrawerHeight=2049
+WorkAreaColor=16777215
+SelectedColor=-16777203
+DefaultObjectColor=15921906
+DefaultTitleColor=255
+DefaultPKColor=16711935
+DefaultFKColor=16711680
+DefaultBorderColor=12632256
+DefaultLineColor=16711680
+ShowFieldType=1
+ShowFieldIcon=1
+ShowPhyFieldName=0
+DatabaseEngine=
+GenFKIndexesSQL=0
+</ConfigStr>
+</DataModels_item1>
+
+
+<DataModels_item1_item0>
+  <Count>13</Count>
+</DataModels_item1_item0>
+
+
+<DataModels_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>T_ORG</Name>
+  <Caption>组织机构表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <GraphDesc>Left=580.00
+Top=-12.00</GraphDesc>
+</DataModels_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0>
+  <Count>15</Count>
+</DataModels_item1_item0_item1_item0>
+
+
+<DataModels_item1_item0_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>ORG_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>组织机构ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>ORG_CODE</Name>
+  <Memo>机构编码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>组织机构编码</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item2>
+
+
+<DataModels_item1_item0_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>ORG_NAME</Name>
+  <Memo>组织机构名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>组织机构名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item3>
+
+
+<DataModels_item1_item0_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>ORG_DESC</Name>
+  <Memo>组织机构描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>组织机构描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item4>
+
+
+<DataModels_item1_item0_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PARENT_ID</Name>
+  <Memo>父组织机构ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>父组织机构ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item5>
+
+
+<DataModels_item1_item0_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>组织机构状态0:正常  1:删除</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>组织机构状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>2</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item6>
+
+
+<DataModels_item1_item0_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>ORG_PATH</Name>
+  <Memo>组织机构路径</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>组织机构路径</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item7>
+
+
+<DataModels_item1_item0_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>ORG_LEVEL</Name>
+  <Memo>组织机构级次</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>组织机构级次</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item8>
+
+
+<DataModels_item1_item0_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>ORG_TYPE</Name>
+  <Memo>组织机构类型(字典配置)</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>组织机构类型</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item9>
+
+
+<DataModels_item1_item0_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>ORG_SORT</Name>
+  <Memo>组织机构顺序(统一父菜单下排序)</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>组织机构排序</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item10>
+
+
+<DataModels_item1_item0_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>POWER_OFF_TIME</Name>
+  <Memo>设备规定关机时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>设备规定关机时间</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item11>
+
+
+<DataModels_item1_item0_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>POWER_ON_TIME</Name>
+  <Memo>设备规定开机时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>设备规定开机时间</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item12>
+
+
+<DataModels_item1_item0_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item13>
+
+
+<DataModels_item1_item0_item1_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item14>
+
+
+<DataModels_item1_item0_item1_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item15>
+
+
+<DataModels_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>T_ROLE</Name>
+  <Caption>角色表</Caption>
+  <Memo>和V端共用，新增类别标识符即可，例如C、V、APP；基础角色有：超级管理员、银行人员、厂商人员三种</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <GraphDesc>Left=325.00
+Top=210.00</GraphDesc>
+</DataModels_item1_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0>
+  <Count>10</Count>
+</DataModels_item1_item0_item2_item0>
+
+
+<DataModels_item1_item0_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>ROLE_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>角色ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item1>
+
+
+<DataModels_item1_item0_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>ROLE_CODE</Name>
+  <Memo>角色编码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>角色编码</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>ROLE_NAME</Name>
+  <Memo>角色名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>角色名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item3>
+
+
+<DataModels_item1_item0_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>ROLE_DESC</Name>
+  <Memo>角色描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>角色描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item4>
+
+
+<DataModels_item1_item0_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>角色状态 0:正常  1: 删除</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>角色状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item5>
+
+
+<DataModels_item1_item0_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>ROLE_CREATER_ID</Name>
+  <Memo>创建人ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>创建人ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item6>
+
+
+<DataModels_item1_item0_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item7>
+
+
+<DataModels_item1_item0_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item8>
+
+
+<DataModels_item1_item0_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item9>
+
+
+<DataModels_item1_item0_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>CATEGORY</Name>
+  <Memo>用来区分该角色属于V端后台、C端后维护等</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>类别标识符</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item10>
+
+
+<DataModels_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_USER</Name>
+  <Caption>用户表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <GraphDesc>Left=10.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0>
+  <Count>15</Count>
+</DataModels_item1_item0_item3_item0>
+
+
+<DataModels_item1_item0_item3_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>USER_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>用户ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item1>
+
+
+<DataModels_item1_item0_item3_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>USER_NO</Name>
+  <Memo>员工工号</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>工号</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item2>
+
+
+<DataModels_item1_item0_item3_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>USER_NAME</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>用户姓名</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>25</ID>
+  <Name>USER_MOBILE</Name>
+  <Memo>用户手机号</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>用户手机号</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item4>
+
+
+<DataModels_item1_item0_item3_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>26</ID>
+  <Name>USER_GENDER</Name>
+  <Memo>用户性别</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>用户性别</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item5>
+
+
+<DataModels_item1_item0_item3_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>USER_EMAIL</Name>
+  <Memo>用户邮箱</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>用户邮箱</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item6>
+
+
+<DataModels_item1_item0_item3_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>USER_BIRTHDAY</Name>
+  <Memo>用户生日</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>用户生日</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item7>
+
+
+<DataModels_item1_item0_item3_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>USER_ADDR</Name>
+  <Memo>用户地址</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>用户地址</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item8>
+
+
+<DataModels_item1_item0_item3_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>USER_DESC</Name>
+  <Memo>用户描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>用户描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item9>
+
+
+<DataModels_item1_item0_item3_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>USER_LOGIN_ACCOUNT</Name>
+  <Memo>登录账号</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>登录账号</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item10>
+
+
+<DataModels_item1_item0_item3_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>USER_LOGIN_PWD</Name>
+  <Memo>登录密码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>登录密码</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item11>
+
+
+<DataModels_item1_item0_item3_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>用户状态:0 正常  1 删除  2：冻结</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>用户状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item12>
+
+
+<DataModels_item1_item0_item3_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item13>
+
+
+<DataModels_item1_item0_item3_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item14>
+
+
+<DataModels_item1_item0_item3_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item15>
+
+
+<DataModels_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>T_PERMISSION</Name>
+  <Caption>权限菜单</Caption>
+  <Memo>和V端共用，新增类别标识符即可，例如C、V、APP；</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <GraphDesc>Left=885.00
+Top=210.00</GraphDesc>
+</DataModels_item1_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0>
+  <Count>13</Count>
+</DataModels_item1_item0_item4_item0>
+
+
+<DataModels_item1_item0_item4_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>PERMISSION_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>权限菜单ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item1>
+
+
+<DataModels_item1_item0_item4_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>PERMISSION_TYPE</Name>
+  <Memo>权限菜单类型,MOD:权限分类,MENU:菜单,BUTTON:按钮</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>权限菜单类型</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item2>
+
+
+<DataModels_item1_item0_item4_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>PERMISSION_CODE</Name>
+  <Memo>权限菜单编码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>权限菜单编码</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item3>
+
+
+<DataModels_item1_item0_item4_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>PERMISSION_NAME</Name>
+  <Memo>权限菜单名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>权限菜单名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>PERMISSION_URL</Name>
+  <Memo>权限菜单URL</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>权限菜单URL</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item5>
+
+
+<DataModels_item1_item0_item4_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>PARENT_ID</Name>
+  <Memo>父权限菜单ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>父权限菜单ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item6>
+
+
+<DataModels_item1_item0_item4_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>PERMISSION_SORT</Name>
+  <Memo>排序字段</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>排序</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item7>
+
+
+<DataModels_item1_item0_item4_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>PERMISSION_DESC</Name>
+  <Memo>权限菜单描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>权限菜单描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item8>
+
+
+<DataModels_item1_item0_item4_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item9>
+
+
+<DataModels_item1_item0_item4_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item10>
+
+
+<DataModels_item1_item0_item4_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>PERMISSION_ICON</Name>
+  <Memo>使用layui图标，例如layui-icon-template</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>图标</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item11>
+
+
+<DataModels_item1_item0_item4_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>PERMISSION_OWNER</Name>
+  <Memo>权限所有者，对于V端，0：平台管理员，1：集团管理员，2：平台和集团管理员；对于C端，10：银行人员，11：厂商人员；12，银行人员和厂商人员</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DisplayName>权限所有者</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item12>
+
+
+<DataModels_item1_item0_item4_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>CATEGORY</Name>
+  <Memo>用来区分该角色属于V端后台、C端后维护等</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DisplayName>类别标识符</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item13>
+
+
+<DataModels_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>T_USER_ORG</Name>
+  <Caption>用户组织机构中间表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <GraphDesc>Left=422.00
+Top=563.00</GraphDesc>
+</DataModels_item1_item0_item5>
+
+
+<DataModels_item1_item0_item5_item0>
+  <Count>2</Count>
+</DataModels_item1_item0_item5_item0>
+
+
+<DataModels_item1_item0_item5_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>USER_ID</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>用户ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_USER</RelateTable>
+  <RelateField>USER_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=133.00,272.00
+P2=133.00,544.00
+P3=520.00,544.00
+P4=520.00,563.00
+HookP1=123.00,123.00
+HookP2=98.00,27.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=1
+Horz1=0
+Horz2=0</GraphDesc>
+</DataModels_item1_item0_item5_item0_item1>
+
+
+<DataModels_item1_item0_item5_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>ORG_ID</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>组织机构ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_ORG</RelateTable>
+  <RelateField>ORG_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=768.00,250.00
+P2=768.00,294.00
+P3=460.00,294.00
+P4=460.00,563.00
+HookP1=188.00,107.00
+HookP2=38.00,35.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=0
+Horz2=0</GraphDesc>
+</DataModels_item1_item0_item5_item0_item2>
+
+
+<DataModels_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>T_USER_ROLE</Name>
+  <Caption>用户角色中间表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <GraphDesc>Left=370.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item6>
+
+
+<DataModels_item1_item0_item6_item0>
+  <Count>2</Count>
+</DataModels_item1_item0_item6_item0>
+
+
+<DataModels_item1_item0_item6_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>USER_ID</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>用户ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_USER</RelateTable>
+  <RelateField>USER_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=256.00,149.00
+P2=313.00,149.00
+P3=313.00,37.00
+P4=370.00,37.00
+HookP1=53.00,139.00
+HookP2=96.00,27.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item6_item0_item1>
+
+
+<DataModels_item1_item0_item6_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>ROLE_ID</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>角色ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_ROLE</RelateTable>
+  <RelateField>ROLE_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=438.00,210.00
+P2=438.00,174.00
+P3=466.00,174.00
+P4=466.00,64.00
+HookP1=113.00,83.00
+HookP2=96.00,27.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=1
+Horz1=0
+Horz2=0</GraphDesc>
+</DataModels_item1_item0_item6_item0_item2>
+
+
+<DataModels_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>T_PERMISSION_ROLE</Name>
+  <Caption>权限菜单角色中间表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <GraphDesc>Left=1095.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item7>
+
+
+<DataModels_item1_item0_item7_item0>
+  <Count>2</Count>
+</DataModels_item1_item0_item7_item0>
+
+
+<DataModels_item1_item0_item7_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>PERMISSION_ID</Name>
+  <Memo>权限菜单ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>权限菜单ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_PERMISSION</RelateTable>
+  <RelateField>PERMISSION_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=1001.00,210.00
+P2=1001.00,99.00
+P3=1215.00,99.00
+P4=1215.00,64.00
+HookP1=116.00,0.00
+HookP2=120.00,0.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=1
+Horz1=0
+Horz2=0</GraphDesc>
+</DataModels_item1_item0_item7_item0_item1>
+
+
+<DataModels_item1_item0_item7_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>ROLE_ID</Name>
+  <Memo>角色ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>角色ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>T_ROLE</RelateTable>
+  <RelateField>ROLE_ID</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=550.00,309.00
+P2=844.00,309.00
+P3=844.00,45.00
+P4=1095.00,45.00
+HookP1=0.00,99.00
+HookP2=0.00,35.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item7_item0_item2>
+
+
+<DataModels_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>T_DICT_TYPE</Name>
+  <Caption>字典类型表</Caption>
+  <Memo>GROUP_ID为0的数据为初始化数据</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <GraphDesc>Left=903.00
+Top=447.00</GraphDesc>
+</DataModels_item1_item0_item8>
+
+
+<DataModels_item1_item0_item8_item0>
+  <Count>7</Count>
+</DataModels_item1_item0_item8_item0>
+
+
+<DataModels_item1_item0_item8_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>TYPE_ID</Name>
+  <Memo>字典类型ID</Memo>
+  <CreateDate>2021/5/25 11:03:50</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>字典类型ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item1>
+
+
+<DataModels_item1_item0_item8_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>TYPE_CODE</Name>
+  <Memo>字典类型编码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>字典类型编码</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item2>
+
+
+<DataModels_item1_item0_item8_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>TYPE_NAME</Name>
+  <Memo>字典类型名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>字典类型名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item3>
+
+
+<DataModels_item1_item0_item8_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item4>
+
+
+<DataModels_item1_item0_item8_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>51</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item5>
+
+
+<DataModels_item1_item0_item8_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>状态 0:正常  1: 删除</Memo>
+  <CreateDate>2021/5/25 16:08:58</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item6>
+
+
+<DataModels_item1_item0_item8_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item7>
+
+
+<DataModels_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>T_DICT_VALUE</Name>
+  <Caption>字典值表</Caption>
+  <Memo>GROUP_ID为0的数据为初始化数据</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <GraphDesc>Left=607.00
+Top=448.00</GraphDesc>
+</DataModels_item1_item0_item9>
+
+
+<DataModels_item1_item0_item9_item0>
+  <Count>9</Count>
+</DataModels_item1_item0_item9_item0>
+
+
+<DataModels_item1_item0_item9_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>VALUE_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>字典值ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item1>
+
+
+<DataModels_item1_item0_item9_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>TYPE_CODE</Name>
+  <Memo>字典类型编码</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>字典类型编码</DisplayName>
+  <DataType>1</DataType>
+  <RelateTable>T_DICT_TYPE</RelateTable>
+  <RelateField>TYPE_CODE</RelateField>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=903.00,506.00
+P2=871.00,506.00
+P3=871.00,507.00
+P4=839.00,507.00
+HookP1=0.00,59.00
+HookP2=0.00,59.00
+Mod_OP1=0
+Mod_OP2=0
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item9_item0_item2>
+
+
+<DataModels_item1_item0_item9_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>VALUE_CODE</Name>
+  <Memo>字典值</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>字典值</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item3>
+
+
+<DataModels_item1_item0_item9_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>VALUE_NAME</Name>
+  <Memo>字典值展示名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>字典值展示名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item4>
+
+
+<DataModels_item1_item0_item9_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>VALUE_DESC</Name>
+  <Memo>描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item5>
+
+
+<DataModels_item1_item0_item9_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>CREATE_TIME</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2021/5/25 16:10:21</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>创建时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item6>
+
+
+<DataModels_item1_item0_item9_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>UPDATE_TIME</Name>
+  <Memo>最后更新时间</Memo>
+  <CreateDate>2021/5/25 16:10:21</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>最后更新时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item7>
+
+
+<DataModels_item1_item0_item9_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>状态 0:正常  1: 删除</Memo>
+  <CreateDate>2021/5/25 16:09:43</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item8>
+
+
+<DataModels_item1_item0_item9_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item9>
+
+
+<DataModels_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>T_BRAND</Name>
+  <Caption>品牌表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <GraphDesc>Left=255.00
+Top=410.00</GraphDesc>
+</DataModels_item1_item0_item10>
+
+
+<DataModels_item1_item0_item10_item0>
+  <Count>6</Count>
+</DataModels_item1_item0_item10_item0>
+
+
+<DataModels_item1_item0_item10_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>BRAND_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>品牌ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item1>
+
+
+<DataModels_item1_item0_item10_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>BRAND_NAME</Name>
+  <Memo>品牌名称</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>品牌名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item2>
+
+
+<DataModels_item1_item0_item10_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>COMPANY_ID</Name>
+  <Memo>品牌厂商(关联公司类型为厂商的ID)</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>品牌厂商</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item3>
+
+
+<DataModels_item1_item0_item10_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>BRAND_SERVICE_PHONE</Name>
+  <Memo>品牌服务电话(400)</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>品牌服务电话(400)</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item4>
+
+
+<DataModels_item1_item0_item10_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>品牌状态 0 启用  1 删除  2 禁用</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>品牌状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item5>
+
+
+<DataModels_item1_item0_item10_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item6>
+
+
+<DataModels_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>T_LOG</Name>
+  <Caption>系统操作日志表</Caption>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <GraphDesc>Left=605.00
+Top=310.00</GraphDesc>
+</DataModels_item1_item0_item11>
+
+
+<DataModels_item1_item0_item11_item0>
+  <Count>9</Count>
+</DataModels_item1_item0_item11_item0>
+
+
+<DataModels_item1_item0_item11_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>LOG_ID</Name>
+  <Memo>序列</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>日志主键</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>30</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item1>
+
+
+<DataModels_item1_item0_item11_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>USER_ID</Name>
+  <Memo>用户主键</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>用户ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item2>
+
+
+<DataModels_item1_item0_item11_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>OPERATE_TYPE</Name>
+  <Memo>操作类型，枚举,0：增，1：删，2:改</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>操作类型</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item3>
+
+
+<DataModels_item1_item0_item11_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>OPERATE_TARGET</Name>
+  <Memo>目标方法，ex:人员，组织机构</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>操作目标模块</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item4>
+
+
+<DataModels_item1_item0_item11_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>LOG_DESC</Name>
+  <Memo>描述</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>描述</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>5000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item5>
+
+
+<DataModels_item1_item0_item11_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>IP</Name>
+  <Memo>操作机器IP地址</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>操作机器IP地址</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item6>
+
+
+<DataModels_item1_item0_item11_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>REQUEST_URL</Name>
+  <Memo>请求URL路径</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>请求URL路径</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item7>
+
+
+<DataModels_item1_item0_item11_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>OPERATE_TIME</Name>
+  <Memo>操作时间</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>操作时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item8>
+
+
+<DataModels_item1_item0_item11_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>GROUP_ID</Name>
+  <Memo>集团ID</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>集团ID</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item9>
+
+
+<DataModels_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>26</ID>
+  <Name>T_TASK_EXECUTION_RECORD</Name>
+  <Caption>定时任务执行记录表</Caption>
+  <Memo>定时任务执行记录表 定时任务执行记录表(定时任务名称、源数据产生日期联合唯一，多次执行增加其次数)</Memo>
+  <CreateDate>2019/9/16 18:16:40</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <GraphDesc>Left=1405.00
+Top=10.00</GraphDesc>
+</DataModels_item1_item0_item12>
+
+
+<DataModels_item1_item0_item12_item0>
+  <Count>11</Count>
+</DataModels_item1_item0_item12_item0>
+
+
+<DataModels_item1_item0_item12_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>RECORD_ID</Name>
+  <Memo>主键 UUID</Memo>
+  <CreateDate>2019/9/16 18:16:40</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>主键 UUID</DisplayName>
+  <DataType>1</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>0</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item1>
+
+
+<DataModels_item1_item0_item12_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>TASK_NAME</Name>
+  <CreateDate>2019/9/16 18:16:40</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>定时任务名称</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item2>
+
+
+<DataModels_item1_item0_item12_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>SOURCE_DATA_GENERATION_DATE</Name>
+  <CreateDate>2019/9/16 18:19:45</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>数据源产生时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item3>
+
+
+<DataModels_item1_item0_item12_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>START_TIME</Name>
+  <Memo>开始执行时间</Memo>
+  <CreateDate>2019/9/16 18:20:48</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>开始执行时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item4>
+
+
+<DataModels_item1_item0_item12_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>END_TIME</Name>
+  <Memo>结束执行时间</Memo>
+  <CreateDate>2019/9/16 18:20:55</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>结束执行时间</DisplayName>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item5>
+
+
+<DataModels_item1_item0_item12_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>STATE</Name>
+  <Memo>状态 0：正在执行，1：成功，2：失败</Memo>
+  <CreateDate>2019/9/16 18:22:06</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>状态</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item6>
+
+
+<DataModels_item1_item0_item12_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>MANUAL_INVOKE_URL</Name>
+  <Memo>手动调用url</Memo>
+  <CreateDate>2019/9/16 18:22:34</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DisplayName>手动调用url</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item7>
+
+
+<DataModels_item1_item0_item12_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>FREQUENCY</Name>
+  <Memo>执行次数</Memo>
+  <CreateDate>2019/9/16 18:23:07</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DisplayName>执行次数</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item8>
+
+
+<DataModels_item1_item0_item12_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>EXECUTION_TYPE</Name>
+  <Memo>执行类型 0：自动，1：手动</Memo>
+  <CreateDate>2019/9/16 18:24:12</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DisplayName>执行类型</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>2</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item9>
+
+
+<DataModels_item1_item0_item12_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>OPERATE_USER_ID</Name>
+  <Memo>用户ID 手动执行的时候记录操作用户</Memo>
+  <CreateDate>2019/9/16 18:24:52</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DisplayName>用户id</DisplayName>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item10>
+
+
+<DataModels_item1_item0_item12_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>REMARK</Name>
+  <Memo>备注异常信息</Memo>
+  <CreateDate>2019/9/16 18:25:54</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DisplayName>备注 记录异常信息等</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>4000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item11>
+
+
+<DataModels_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>T_GROUP</Name>
+  <Caption>集团表</Caption>
+  <Memo>集团表</Memo>
+  <CreateDate>2021/5/24 17:20:09</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <GraphDesc>Left=10.00
+Top=610.00</GraphDesc>
+</DataModels_item1_item0_item13>
+
+
+<DataModels_item1_item0_item13_item0>
+  <Count>6</Count>
+</DataModels_item1_item0_item13_item0>
+
+
+<DataModels_item1_item0_item13_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>ID</Name>
+  <CreateDate>2021/5/24 17:20:09</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DisplayName>主键</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item1>
+
+
+<DataModels_item1_item0_item13_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>ORG_ID</Name>
+  <CreateDate>2021/5/24 17:20:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DisplayName>组织机构ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item2>
+
+
+<DataModels_item1_item0_item13_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>SYS_ADMIN_ROLE_ID</Name>
+  <CreateDate>2021/5/24 17:20:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DisplayName>集团系统管理角色ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item3>
+
+
+<DataModels_item1_item0_item13_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>SYS_ADMIN_USER_ID</Name>
+  <CreateDate>2021/5/24 17:20:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DisplayName>集团系统管理员ID</DisplayName>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item4>
+
+
+<DataModels_item1_item0_item13_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>USER_ACCOUNT_SUFFIX</Name>
+  <Memo>验重，例如邮箱后缀</Memo>
+  <CreateDate>2021/5/24 17:20:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DisplayName>用户登录名后缀</DisplayName>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item5>
+
+
+<DataModels_item1_item0_item13_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>IS_DELETED</Name>
+  <Memo>状态0:正常  1:删除</Memo>
+  <CreateDate>2021/5/24 17:20:15</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DisplayName>状态</DisplayName>
+  <DataType>6</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item6>
+
+
+</CTOXML>
