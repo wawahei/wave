@@ -12,8 +12,8 @@
           <include refid="Base_Column_List"/>
         )
         VALUES
-        <foreach collection="list" item="item" index="index" open="(" separator="union all" close=")" >
-            select
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
             #{item.valueId,jdbcType=INTEGER},
             #{item.typeCode,jdbcType=VARCHAR},
             #{item.valueCode,jdbcType=VARCHAR},
@@ -23,7 +23,7 @@
             #{item.updateTime,jdbcType=TIMESTAMP},
             #{item.isDeleted,jdbcType=INTEGER},
             #{item.groupId,jdbcType=INTEGER}
-            from dual
+            )
         </foreach>
 
     </insert>
