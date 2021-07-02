@@ -1,5 +1,7 @@
 package com.nanyuan.wave.core.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nanyuan.wave.core.pojo.entity.DictValue;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -12,5 +14,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-05-25
  */
 public interface DictValueService extends IService<DictValue> {
+
+    IPage<DictValue> list(Page<DictValue> pageParam, String typeCode);
 
 }

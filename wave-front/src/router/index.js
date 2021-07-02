@@ -77,6 +77,7 @@ export const constantRoutes = [
     ]
   },
 
+
   {
     path: '/form',
     component: Layout,
@@ -88,7 +89,28 @@ export const constantRoutes = [
         meta: { title: 'Form', icon: 'form' }
       }
     ]
-  }
+  },
+  {
+    path: '/dictType',
+    component: Layout,
+    redirect: '/dictType/list',
+    name: 'Example',
+    meta: { title: '系统管理', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'list',
+        name: '字典管理',
+        component: () => import('@/views/dictType/index'),
+        meta: { title: '字典管理', icon: 'table' }
+      },
+      {
+        path: 'save',
+        name: '新增字典',
+        component: () => import('@/views/dictType/save'),
+        meta: { title: '新增字典', icon: 'tree' }
+      }
+    ]
+  },
 ]
 
 /**

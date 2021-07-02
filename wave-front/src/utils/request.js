@@ -3,10 +3,15 @@ import { MessageBox, Message } from 'element-ui'
 import store from '@/store'
 import { getToken } from '@/utils/auth'
 
+// var baseURLStr = window.g.ApiUrl
+// console.log(baseURLStr)
+
 // create an axios instance
 const service = axios.create({
-  baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
+  // baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
+  baseURL: "http://localhost:8080",//api的base
+
   timeout: 5000 // request timeout
 })
 

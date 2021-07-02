@@ -36,7 +36,7 @@ public class Swagger2Config {
                 .title("后台管理系统API文档")
                 .description("本文档描述了后台管理系统的各个模块的接口的调用方式")
                 .version("1.6")
-                .contact(new Contact("yanghailang", "http://baidu.com", "yanghailang@newbeiyang.com"))
+                .contact(new Contact("yanghailang", "http://localhost:8080/doc.html", "yanghailang@newbeiyang.com"))
                 .build();
     }
 
