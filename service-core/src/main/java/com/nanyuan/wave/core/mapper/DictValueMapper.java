@@ -3,6 +3,8 @@ package com.nanyuan.wave.core.mapper;
 import com.nanyuan.wave.core.pojo.entity.DictValue;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
  * 字典值表 GROUP_ID为0的数据为初始化数据 Mapper 接口
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface DictValueMapper extends BaseMapper<DictValue> {
 
+    int saveList(List<DictValue> list);
 }

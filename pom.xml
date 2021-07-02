@@ -39,6 +39,8 @@
 		<jodatime.version>2.10.1</jodatime.version>
 		<jwt.version>0.7.0</jwt.version>
 		<httpclient.version>4.5.1</httpclient.version>
+		<shiro.spring.version>1.4.0</shiro.spring.version>
+		<shiro.redis.version>3.2.2</shiro.redis.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -182,6 +184,17 @@
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpclient</artifactId>
 				<version>${httpclient.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.shiro</groupId>
+				<artifactId>shiro-spring</artifactId>
+				<version>${shiro.spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.crazycake</groupId>
+				<artifactId>shiro-redis</artifactId>
+				<version>${shiro.redis.version}</version>
 			</dependency>
 
 

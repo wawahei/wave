@@ -2,4 +2,29 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.nanyuan.wave.core.mapper.DictValueMapper">
 
+    <sql id="Base_Column_List">
+        TYPE_ID, TYPE_CODE,VALUE_CODE, VALUE_NAME, VALUE_DESC,CREATE_TIME, UPDATE_TIME,IS_DELETED,GROUP_ID
+    </sql>
+
+    <insert id="saveList" parameterType="java.util.List">
+        insert into  T_INVENTORY_MONEYBOX (
+          <include refid="Base_Column_List"/>
+        )
+        VALUES (
+        <foreach collection="list" item="item" index="index" open="(" separator="union all" close=")" >
+            select
+            #{item.valueId,jdbcType=INTEGER},
+            #{item.typeCode,jdbcType=VARCHAR},
+            #{item.valueCode,jdbcType=VARCHAR},
+            #{item.valueName,jdbcType=VARCHAR},
+            #{item.valueDesc,jdbcType=VARCHAR},
+            #{item.createTime,jdbcType=TIMESTAMP},
+            #{item.updateTime,jdbcType=TIMESTAMP},
+            #{item.isDeleted,jdbcType=INTEGER},
+            #{item.groupId,jdbcType=INTEGER}
+            from dual
+        </foreach>
+        ) A
+    </insert>
+
 </mapper>

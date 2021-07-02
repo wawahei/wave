@@ -14,6 +14,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * <p>
  * 字典值表 GROUP_ID为0的数据为初始化数据 前端控制器
@@ -55,6 +57,19 @@ public class DictValueController {
             @RequestBody DictValue dictValue){
         dictValue.setIsDeleted(DeleteStateEnum.NORMAL.getStatus());
         boolean result = dictValueService.save(dictValue);
+        if(result){
+            return R.ok().message("保存成功");
+        }else {
+            return R.ok().message("保存失败");
+        }
+    }
+
+    @ApiOperation("保存字典值列表")
+    @PostMapping("/saveList")
+    public R saveList(
+            @ApiParam(value = "新增字典值列表",required = true)
+            @RequestBody List<DictValue> list){
+        boolean result = dictValueService.saveList(list);
         if(result){
             return R.ok().message("保存成功");
         }else {
