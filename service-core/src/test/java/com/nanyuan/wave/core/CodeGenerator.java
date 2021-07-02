@@ -126,8 +126,9 @@ public class CodeGenerator {
         // 写于父类中的公共字段
 //        strategy.setSuperEntityColumns("id");
 //        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
-        strategy.setInclude("T_DICT_TYPE","T_DICT_VALUE");
 //        strategy.setControllerMappingHyphenStyle(true);
+//        strategy.setInclude("T_DICT_TYPE","T_DICT_VALUE");
+        strategy.setInclude("T_USER");
         strategy.setTablePrefix("T_");
         mpg.setStrategy(strategy);
         mpg.setTemplateEngine(new FreemarkerTemplateEngine());
