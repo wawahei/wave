@@ -1,15 +1,17 @@
 package com.nanyuan.wave.core.pojo.entity;
 
-import java.math.BigDecimal;
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableId;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -47,11 +49,11 @@ public class DictValue implements Serializable {
     private String valueDesc;
 
     @ApiModelProperty(value = "创建时间 创建时间")
-    @TableField("CREATE_TIME")
+    @TableField(value = "CREATE_TIME",fill = FieldFill.INSERT)
     private LocalDateTime createTime;
 
     @ApiModelProperty(value = "最后更新时间 最后更新时间")
-    @TableField("UPDATE_TIME")
+    @TableField(value = "UPDATE_TIME",fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
 
     @ApiModelProperty(value = "状态 状态 0:正常  1: 删除")

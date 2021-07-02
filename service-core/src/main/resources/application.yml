@@ -14,7 +14,7 @@ spring:
     password: 123456
 #mybatis-plus.global-config.db-config.table-prefix=t_
 mybatis-plus:
-  mapper-locations: classpath:mappers/*Mapper.xml  # mapper映射文件
+  mapper-locations: classpath:mapper/*Mapper.xml  # mapper映射文件
   global-config:
     db-config:
       table-prefix: T_
