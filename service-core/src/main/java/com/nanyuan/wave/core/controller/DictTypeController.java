@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/dictType")
 @Slf4j
-//@CrossOrigin
+@CrossOrigin
 public class DictTypeController {
 
     @Autowired
