@@ -44,8 +44,17 @@ public class DictValueServiceImpl extends ServiceImpl<DictValueMapper, DictValue
 
     @Override
     public boolean saveList(List<DictValue> list) {
+        QueryWrapper<DictValue> queryWrapper = new QueryWrapper<>();
+        String typeCode = list.get(0).getTypeCode();
+        if(StringUtils.hasText(typeCode)){
+            queryWrapper.eq("TYPE_CODE",typeCode);
+        }
+
+        baseMapper.delete(queryWrapper);
+
         for(DictValue dictValue:list){
             dictValue.setIsDeleted(DeleteStateEnum.NORMAL.getStatus());
+            dictValue.setTypeCode(typeCode);
         }
         int count = dictValueMapper.saveList(list);
         return count>0;

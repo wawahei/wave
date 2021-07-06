@@ -28,6 +28,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/dictValue")
 @Slf4j
+@CrossOrigin
 public class DictValueController {
 
     @Autowired

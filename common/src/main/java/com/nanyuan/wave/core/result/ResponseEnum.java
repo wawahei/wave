@@ -14,7 +14,7 @@ import lombok.ToString;
 @ToString
 public enum ResponseEnum {
 
-    SUCCESS(200, "成功"),
+    SUCCESS(20000, "成功"),
     ERROR(500, "服务器内部错误"),
 
     //-1xx 服务器错误
