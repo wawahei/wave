@@ -82,4 +82,27 @@ public class UserController {
         }
     }
 
+
+    @ApiOperation("修改用户")
+    @PutMapping("/update")
+    public R update(
+            @ApiParam(value = "用户实体",required = true)
+            @RequestBody User user){
+        boolean result = userService.updateById(user);
+        if(result){
+            return R.ok().message("修改成功");
+        }else {
+            return R.ok().message("修改失败");
+        }
+    }
+
+
+    @ApiOperation("用户详情")
+    @GetMapping("/fetchById/{userId}")
+    public R fetchById(@ApiParam(value = "用户ID")@PathVariable Integer userId){
+        User user = userService.getById(userId);
+        return R.ok().data("user",user);
+    }
+
+
 }
