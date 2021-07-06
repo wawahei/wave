@@ -28,7 +28,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/dictType")
 @Slf4j
-@CrossOrigin
 public class DictTypeController {
 
     @Autowired
@@ -36,7 +35,7 @@ public class DictTypeController {
 
     @ApiOperation("查询list列表")
     @GetMapping("/list/{page}/{limit}")
-    public R list(
+    public R listByParentId(
             @ApiParam(value = "当前页码", required = true)
             @PathVariable Long page,
 
@@ -85,7 +84,6 @@ public class DictTypeController {
     public R update(
                 @ApiParam(value = "字典类型",required = true)
                 @RequestBody DictType dictType){
-        Assert.notNull(dictType.getTypeId(), ResponseEnum.PARAM_NOT_EMPTY);
         boolean result = dictTypeService.updateById(dictType);
         if(result){
             return R.ok().message("更新成功");
