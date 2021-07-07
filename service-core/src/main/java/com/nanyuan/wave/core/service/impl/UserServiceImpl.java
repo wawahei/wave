@@ -6,7 +6,10 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.nanyuan.wave.core.mapper.UserMapper;
 import com.nanyuan.wave.core.pojo.entity.User;
+import com.nanyuan.wave.core.pojo.vo.LoginVO;
+import com.nanyuan.wave.core.pojo.vo.UserInfoVO;
 import com.nanyuan.wave.core.service.UserService;
+import com.nanyuan.wave.core.utils.JwtUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
@@ -34,5 +37,20 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         IPage<User> page = baseMapper.selectPage(pageParam,queryWrapper);
         return page;
+    }
+
+    @Override
+    public UserInfoVO login(LoginVO loginVO) {
+        //生成token
+        String token = JwtUtils.createToken(1L, loginVO.getUserName());
+
+        //组装UserInfoVO
+        UserInfoVO userInfoVO = new UserInfoVO();
+        userInfoVO.setToken(token);
+        userInfoVO.setName(loginVO.getUserName());
+        userInfoVO.setNickName(loginVO.getUserName()+" hello");
+        userInfoVO.setHeadImg("https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif");
+
+        return userInfoVO;
     }
 }
